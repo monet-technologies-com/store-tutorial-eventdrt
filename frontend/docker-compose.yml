@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  web:
+    container_name: eventdrt
+    build: ./docker/web
+    ports:
+      - 3000:3000
+    volumes:
+      - ./vue-client:/app

@@ -1,0 +1,7 @@
+public
+dist
+node_modules
+tests
+.git
+src/shims-tsx.d.ts
+src/shims-vue.d.ts

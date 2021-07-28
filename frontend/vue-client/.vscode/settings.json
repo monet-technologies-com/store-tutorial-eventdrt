@@ -1,0 +1,6 @@
+{
+  // ESLintに対応しているファイルは保存時にESLintによるフォーマットを行う
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+  },
+}
